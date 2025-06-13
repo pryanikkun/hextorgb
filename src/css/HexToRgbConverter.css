@@ -1,0 +1,42 @@
+.everything {
+    align-content: center;
+    min-height: 100%;
+    min-width: 100%;
+    transition: background-color 0.3s ease;
+}
+.input-hex-place {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.hex-input {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+
+.input-rgb-place {
+    margin-bottom: 15px;
+}
+
+.rgb-color {
+    font-size: 16px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: rgba(37, 37, 37, 0.4);
+    color: white;
+    text-align: center;
+}
+
+.error {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(67, 0, 0, 0.48);
+    color: wheat;
+    font-weight: bold;
+}
