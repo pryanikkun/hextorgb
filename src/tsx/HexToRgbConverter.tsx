@@ -17,7 +17,7 @@ const HexToRgbConverter: React.FC = () => {
                     setRgbColor(`rgb (${r}, ${g}, ${b})`);
                     setError('')
                     document.body.style.backgroundColor = hexColor;
-                } catch (e) {
+                } catch {
                     setError('Ошибка конвертации')
                     document.body.style.backgroundColor = 'red';
                 }
